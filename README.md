@@ -37,8 +37,8 @@ formats.
 
 ## Requirements
 
-For an operational usage of the script in it's intended environment, use the containerized
-version on <https://www.wildfirecommons.org>. For unwarranted experimentation with the scripts,
+For an operational usage of the script in its intended environment, use the containerized
+version on <https://www.wildfirecommons.org>. For unsupported experimentation with the scripts,
 follow requirements and usage instructions.
 
 - R (4.x)
