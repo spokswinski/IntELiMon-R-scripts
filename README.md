@@ -37,6 +37,10 @@ formats.
 
 ## Requirements
 
+For an operational usage of the script in it's intended environment, use the containerized
+version on <https://www.wildfirecommons.org>. For unwarranted experimentation with the scripts,
+follow requirements and usage instructions.
+
 - R (4.x)
 - CRAN packages: `nabor`, `dplyr`, `data.table`, `terra`, `raster`, `rlas`, `lidR`, `e1071`,
   `geometry`, `sf`, `Morpho`
