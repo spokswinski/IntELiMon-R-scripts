@@ -1,0 +1,241 @@
+Metric,Scan Division,Metric type,Raw point cloud/Voxelized point cloud,Description (simplified),Description (Detailed)
+h_filename,Entire point cloud,NA,NA,File name of the scan,"File name of the scan that includes location ID, plot number, scan date and laser type"
+h_ground_cnt,Entire point cloud,General,Raw,Number of points classified as ground,The number of points in a raw point cloud that were classified as ground points using a cloth simulation filter
+h_not_ground_cnt,Entire point cloud,General,Raw,Number of points not classified as ground,The number of points in a raw point cloud that were not classified as ground points using a cloth simulation filter
+h_per_ground,Entire point cloud,General,Raw,Percent of ground points in the scan,The percentage of points in the scan that were classified as ground points using a cloth simulation filter
+h_ng_tgi,Entire point cloud,General,Raw,Triangular greenness index of points classified as not ground,Triangular greenness index of points classified as not ground utilizing RGB values from the point cloud
+h_ng_vari,Entire point cloud,General,Raw,Visual atmospheric resistance index of points not classified as ground,Visual atmospheric resistance index of points classified as not ground utilizing RGB values from the point cloud
+h_l1_cnt,0-0.5 m height strata,Height strata,Raw,Count of points in height strata,Count of points in height strata 0-0.5 m of the normalized point cloud
+h_l1_per,0-0.5 m height strata,Height strata,Raw,Percent of points in height strata,Percent of points in height strata 0-0.5 m of the normalized point cloud
+h_l1_mean,0-0.5 m height strata,Height strata,Raw,Mean height of points in height strata,Mean height of points in height strata 0-0.5 m of the normalized point cloud
+h_l1_median,0-0.5 m height strata,Height strata,Raw,Median height of points in height strata,Median height of points in height strata 0-0.5 m of the normalized point cloud
+h_l1_std,0-0.5 m height strata,Height strata,Raw,Standard deviation of points in height strata,Standard deviation of points in height strata 0-0.5 m of the normalized point cloud
+h_l1_tgi,0-0.5 m height strata,Height strata,Raw,Triangular greenness index of points in height strata,Triangular greenness index of points in height strata 0-0.5 m of the normalized point cloud
+h_l1_vari,0-0.5 m height strata,Height strata,Raw,Visual atmospheric resistance index of points in height strata,Visual atmospheric resistance index of points in height strata 0-0.5 m of the normalized point cloud
+h_l1_skew,0-0.5 m height strata,Height strata,Raw,Skewness of point heights in height strata,Skewness of point heights in height strata 0-0.5 m of the normalized point cloud
+h_l1_kurt,0-0.5 m height strata,Height strata,Raw,Kurtosis of point heights in height strata,Kurtosis of point heights in height strata 0-0.5 m of the normalized point cloud
+h_l2_cnt,0.5-1.0 m height strata,Height strata,Raw,Count of points in height strata,Count of points in height strata 0.5-1.0 m of the normalized point cloud
+h_l2_per,0.5-1.0 m height strata,Height strata,Raw,Percent of points in height strata,Percent of points in height strata 0.5-1.0 m of the normalized point cloud
+h_l2_mean,0.5-1.0 m height strata,Height strata,Raw,Mean height of points in height strata,Mean height of points in height strata 0.5-1.0 m of the normalized point cloud
+h_l2_median,0.5-1.0 m height strata,Height strata,Raw,Median height of points in height strata,Median height of points in height strata 0.5-1.0 m of the normalized point cloud
+h_l2_std,0.5-1.0 m height strata,Height strata,Raw,Standard deviation of points in height strata,Standard deviation of points in height strata 0.5-1.0 m of the normalized point cloud
+h_l2_tgi,0.5-1.0 m height strata,Height strata,Raw,Triangular greenness index of points in height strata,Triangular greenness index of points in height strata 0.5-1.0 m of the normalized point cloud
+h_l2_vari,0.5-1.0 m height strata,Height strata,Raw,Visual atmospheric resistance index of points in height strata,Visual atmospheric resistance index of points in height strata 0.5-1.0 m of the normalized point cloud
+h_l2_skew,0.5-1.0 m height strata,Height strata,Raw,Skewness of point heights in height strata,Skewness of point heights in height strata 0.5-1.0 m of the normalized point cloud
+h_l2_kurt,0.5-1.0 m height strata,Height strata,Raw,Kurtosis of point heights in height strata,Kurtosis of point heights in height strata 0.5-1.0 m of the normalized point cloud
+h_l3_cnt,1.0-1.5 m height strata,Height strata,Raw,Count of points in height strata,Count of points in height strata 1.0-1.5 m of the normalized point cloud
+h_l3_per,1.0-1.5 m height strata,Height strata,Raw,Percent of points in height strata,Percent of points in height strata 1.0-1.5 m of the normalized point cloud
+h_l3_mean,1.0-1.5 m height strata,Height strata,Raw,Mean height of points in height strata,Mean height of points in height strata 1.0-1.5 m of the normalized point cloud
+h_l3_median,1.0-1.5 m height strata,Height strata,Raw,Median height of points in height strata,Median height of points in height strata 1.0-1.5 m of the normalized point cloud
+h_l3_std,1.0-1.5 m height strata,Height strata,Raw,Standard deviation of points in height strata,Standard deviation of points in height strata 1.0-1.5 m of the normalized point cloud
+h_l3_tgi,1.0-1.5 m height strata,Height strata,Raw,Triangular greenness index of points in height strata,Triangular greenness index of points in height strata 1.0-1.5 m of the normalized point cloud
+h_l3_vari,1.0-1.5 m height strata,Height strata,Raw,Visual atmospheric resistance index of points in height strata,Visual atmospheric resistance index of points in height strata 1.0-1.5 m of the normalized point cloud
+h_l3_skew,1.0-1.5 m height strata,Height strata,Raw,Skewness of point heights in height strata,Skewness of point heights in height strata 1.0-1.5 m of the normalized point cloud
+h_l3_kurt,1.0-1.5 m height strata,Height strata,Raw,Kurtosis of point heights in height strata,Kurtosis of point heights in height strata 1.0-1.5 m of the normalized point cloud
+h_l4_cnt,1.5-2.0 m height strata,Height strata,Raw,Count of points in height strata,Count of points in height strata 1.5-2.0 m of the normalized point cloud
+h_l4_per,1.5-2.0 m height strata,Height strata,Raw,Percent of points in height strata,Percent of points in height strata 1.5-2.0 m of the normalized point cloud
+h_l4_mean,1.5-2.0 m height strata,Height strata,Raw,Mean height of points in height strata,Mean height of points in height strata 1.5-2.0 m of the normalized point cloud
+h_l4_median,1.5-2.0 m height strata,Height strata,Raw,Median height of points in height strata,Median height of points in height strata 1.5-2.0 m of the normalized point cloud
+h_l4_std,1.5-2.0 m height strata,Height strata,Raw,Standard deviation of points in height strata,Standard deviation of points in height strata 1.5-2.0 m of the normalized point cloud
+h_l4_tgi,1.5-2.0 m height strata,Height strata,Raw,Triangular greenness index of points in height strata,Triangular greenness index of points in height strata 1.5-2.0 m of the normalized point cloud
+h_l4_vari,1.5-2.0 m height strata,Height strata,Raw,Visual atmospheric resistance index of points in height strata,Visual atmospheric resistance index of points in height strata 1.5-2.0 m of the normalized point cloud
+h_l4_skew,1.5-2.0 m height strata,Height strata,Raw,Skewness of point heights in height strata,Skewness of point heights in height strata 1.5-2.0 m of the normalized point cloud
+h_l4_kurt,1.5-2.0 m height strata,Height strata,Raw,Kurtosis of point heights in height strata,Kurtosis of point heights in height strata 1.5-2.0 m of the normalized point cloud
+h_l5_cnt,>2.0 m height strata,Height strata,Raw,Count of points in height strata,Count of points in height strata >2.0 m of the normalized point cloud
+h_l5_per,>2.0 m height strata,Height strata,Raw,Percent of points in height strata,Percent of points in height strata >2.0 m of the normalized point cloud
+h_l5_mean,>2.0 m height strata,Height strata,Raw,Mean height of points in height strata,Mean height of points in height strata >2.0 m of the normalized point cloud
+h_l5_median,>2.0 m height strata,Height strata,Raw,Median height of points in height strata,Median height of points in height strata >2.0 m of the normalized point cloud
+h_l5_std,>2.0 m height strata,Height strata,Raw,Standard deviation of points in height strata,Standard deviation of points in height strata >2.0 m of the normalized point cloud
+h_l5_tgi,>2.0 m height strata,Height strata,Raw,Triangular greenness index of points in height strata,Triangular greenness index of points in height strata >2.0 m of the normalized point cloud
+h_l5_vari,>2.0 m height strata,Height strata,Raw,Visual atmospheric resistance index of points in height strata,Visual atmospheric resistance index of points in height strata >2.0 m of the normalized point cloud
+h_l5_skew,>2.0 m height strata,Height strata,Raw,Skewness of point heights in height strata,Skewness of point heights in height strata >2.0 m of the normalized point cloud
+h_l5_kurt,>2.0 m height strata,Height strata,Raw,Kurtosis of point heights in height strata,Kurtosis of point heights in height strata >2.0 m of the normalized point cloud
+h_GC_cnt,0-1.0 m height strata,Height strata,Raw,Count of points in height strata,Count of points in height strata 0-1.0 m of the normalized point cloud
+h_GC_per,0-1.0 m height strata,Height strata,Raw,Percent of points in height strata,Percent of points in height strata 0-1.0 m of the normalized point cloud
+h_GC_mean,0-1.0 m height strata,Height strata,Raw,Mean height of points in height strata,Mean height of points in height strata 0-1.0 m of the normalized point cloud
+h_GC_median,0-1.0 m height strata,Height strata,Raw,Median height of points in height strata,Median height of points in height strata 0-1.0 m of the normalized point cloud
+h_GC_std,0-1.0 m height strata,Height strata,Raw,Standard deviation of points in height strata,Standard deviation of points in height strata 0-1.0 m of the normalized point cloud
+h_GC_tgi,0-1.0 m height strata,Height strata,Raw,Triangular greenness index of points in height strata,Triangular greenness index of points in height strata 0-1.0 m of the normalized point cloud
+h_GC_vari,0-1.0 m height strata,Height strata,Raw,Visual atmospheric resistance index of points in height strata,Visual atmospheric resistance index of points in height strata 0-1.0 m of the normalized point cloud
+h_GC_skew,0-1.0 m height strata,Height strata,Raw,Skewness of point heights in height strata,Skewness of point heights in height strata 0-1.0 m of the normalized point cloud
+h_GC_kurt,0-1.0 m height strata,Height strata,Raw,Kurtosis of point heights in height strata,Kurtosis of point heights in height strata 0-1.0 m of the normalized point cloud
+h_US_cnt,1.0-3.0 m height strata,Height strata,Raw,Count of points in height strata,Count of points in height strata 1.0-3.0 m of the normalized point cloud
+h_US_per,1.0-3.0 m height strata,Height strata,Raw,Percent of points in height strata,Percent of points in height strata 1.0-3.0 m of the normalized point cloud
+h_US_mean,1.0-3.0 m height strata,Height strata,Raw,Mean height of points in height strata,Mean height of points in height strata 1.0-3.0 m of the normalized point cloud
+h_US_median,1.0-3.0 m height strata,Height strata,Raw,Median height of points in height strata,Median height of points in height strata 1.0-3.0 m of the normalized point cloud
+h_US_std,1.0-3.0 m height strata,Height strata,Raw,Standard deviation of points in height strata,Standard deviation of points in height strata 1.0-3.0 m of the normalized point cloud
+h_US_tgi,1.0-3.0 m height strata,Height strata,Raw,Triangular greenness index of points in height strata,Triangular greenness index of points in height strata 1.0-3.0 m of the normalized point cloud
+h_US_vari,1.0-3.0 m height strata,Height strata,Raw,Visual atmospheric resistance index of points in height strata,Visual atmospheric resistance index of points in height strata 1.0-3.0 m of the normalized point cloud
+h_US_skew,1.0-3.0 m height strata,Height strata,Raw,Skewness of point heights in height strata,Skewness of point heights in height strata 1.0-3.0 m of the normalized point cloud
+h_US_kurt,1.0-3.0 m height strata,Height strata,Raw,Kurtosis of point heights in height strata,Kurtosis of point heights in height strata 1.0-3.0 m of the normalized point cloud
+h_MS_cnt,3.0-9.0 m height strata,Height strata,Raw,Count of points in height strata,Count of points in height strata 3.0-9.0 m of the normalized point cloud
+h_MS_per,3.0-9.0 m height strata,Height strata,Raw,Percent of points in height strata,Percent of points in height strata 3.0-9.0 m of the normalized point cloud
+h_MS_mean,3.0-9.0 m height strata,Height strata,Raw,Mean height of points in height strata,Mean height of points in height strata 3.0-9.0 m of the normalized point cloud
+h_MS_median,3.0-9.0 m height strata,Height strata,Raw,Median height of points in height strata,Median height of points in height strata 3.0-9.0 m of the normalized point cloud
+h_MS_std,3.0-9.0 m height strata,Height strata,Raw,Standard deviation of points in height strata,Standard deviation of points in height strata 3.0-9.0 m of the normalized point cloud
+h_MS_tgi,3.0-9.0 m height strata,Height strata,Raw,Triangular greenness index of points in height strata,Triangular greenness index of points in height strata 3.0-9.0 m of the normalized point cloud
+h_MS_vari,3.0-9.0 m height strata,Height strata,Raw,Visual atmospheric resistance index of points in height strata,Visual atmospheric resistance index of points in height strata 3.0-9.0 m of the normalized point cloud
+h_MS_skew,3.0-9.0 m height strata,Height strata,Raw,Skewness of point heights in height strata,Skewness of point heights in height strata 3.0-9.0 m of the normalized point cloud
+h_MS_kurt,3.0-9.0 m height strata,Height strata,Raw,Kurtosis of point heights in height strata,Kurtosis of point heights in height strata 3.0-9.0 m of the normalized point cloud
+h_OS_cnt,>9.0 m height strata,Height strata,Raw,Count of points in height strata,Count of points in height strata >9.0 m of the normalized point cloud
+h_OS_per,>9.0 m height strata,Height strata,Raw,Percent of points in height strata,Percent of points in height strata >9.0 m of the normalized point cloud
+h_OS_mean,>9.0 m height strata,Height strata,Raw,Mean height of points in height strata,Mean height of points in height strata >9.0 m of the normalized point cloud
+h_OS_median,>9.0 m height strata,Height strata,Raw,Median height of points in height strata,Median height of points in height strata >9.0 m of the normalized point cloud
+h_OS_std,>9.0 m height strata,Height strata,Raw,Standard deviation of points in height strata,Standard deviation of points in height strata >9.0 m of the normalized point cloud
+h_OS_tgi,>9.0 m height strata,Height strata,Raw,Triangular greenness index of points in height strata,Triangular greenness index of points in height strata >9.0 m of the normalized point cloud
+h_OS_vari,>9.0 m height strata,Height strata,Raw,Visual atmospheric resistance index of points in height strata,Visual atmospheric resistance index of points in height strata >9.0 m of the normalized point cloud
+h_OS_skew,>9.0 m height strata,Height strata,Raw,Skewness of point heights in height strata,Skewness of point heights in height strata >9.0 m of the normalized point cloud
+h_OS_kurt,>9.0 m height strata,Height strata,Raw,Kurtosis of point heights in height strata,Kurtosis of point heights in height strata >9.0 m of the normalized point cloud
+h_zmax,Entire point cloud,General,Raw,Maximum height of the normalized point cloud,The height of the highest point in the normalized point cloud
+h_zmean,Entire point cloud,General,Raw,Mean height of the normalized point cloud,The mean height of all points in the normalized point cloud (includes ground points)
+h_zsd,Entire point cloud,General,Raw,Standard deviation of the height of points in the normalized point cloud,The standard deviation of all points in the normalized point cloud (includes ground points)
+h_zskew,Entire point cloud,General,Raw,Skewness of point heights in the point cloud,The skewness of all points in the normalized point cloud (includes ground points)
+h_zkurt,Entire point cloud,General,Raw,Kurtosis of point heights in the point cloud,The kurtosis of all points in the normalized point cloud (includes ground points)
+h_pzabovezmean,Entire point cloud,General,Raw,Percent of points above two standard deviations above the mean height of the point cloud,The percent of points above two standard deviations above the mean height of the normalized point cloud (includes ground points)
+h_pzabove2,Entire point cloud,General,Raw,Percent of points above the mean height of the point cloud,The percent of points above the mean height of the normalized point cloud (includes ground points)
+h_zq5,Quantiles of point cloud,General,Raw,Fifth percentile height of points in the point cloud,The Fifth percentile height of points in the point cloud (includes ground points)
+h_zq10,Quantiles of point cloud,General,Raw,Tenth percentile height of points in the point cloud,The Tenth percentile height of points in the point cloud (includes ground points)
+h_zq15,Quantiles of point cloud,General,Raw,Fifteenth percentile height of points in the point cloud,The Fifteenth percentile height of points in the point cloud (includes ground points)
+h_zq20,Quantiles of point cloud,General,Raw,Twentieth percentile height of points in the point cloud,The Twentieth percentile height of points in the point cloud (includes ground points)
+h_zq25,Quantiles of point cloud,General,Raw,Twenty-fifth percentile height of points in the point cloud,The Twenty-fifth percentile height of points in the point cloud (includes ground points)
+h_zq30,Quantiles of point cloud,General,Raw,Thirtieth percentile height of points in the point cloud,The Thirtieth percentile height of points in the point cloud (includes ground points)
+h_zq35,Quantiles of point cloud,General,Raw,Thirty-fifth percentile height of points in the point cloud,The Thirty-fifth percentile height of points in the point cloud (includes ground points)
+h_zq40,Quantiles of point cloud,General,Raw,Fortieth percentile height of points in the point cloud,The Fortieth percentile height of points in the point cloud (includes ground points)
+h_zq45,Quantiles of point cloud,General,Raw,Forty-fifth percentile height of points in the point cloud,The Forty-fifth percentile height of points in the point cloud (includes ground points)
+h_zq50,Quantiles of point cloud,General,Raw,Fiftieth percentile height of points in the point cloud,The Fiftieth percentile height of points in the point cloud (includes ground points)
+h_zq55,Quantiles of point cloud,General,Raw,Fifty-fifth percentile height of points in the point cloud,The Fifty-fifth percentile height of points in the point cloud (includes ground points)
+h_zq60,Quantiles of point cloud,General,Raw,Sixtieth percentile height of points in the point cloud,The Sixtieth percentile height of points in the point cloud (includes ground points)
+h_zq65,Quantiles of point cloud,General,Raw,Sixty-fifth percentile height of points in the point cloud,The Sixty-fifth percentile height of points in the point cloud (includes ground points)
+h_zq70,Quantiles of point cloud,General,Raw,Seventieth percentile height of points in the point cloud,The Seventieth percentile height of points in the point cloud (includes ground points)
+h_zq75,Quantiles of point cloud,General,Raw,Seventy-fifth percentile height of points in the point cloud,The Seventy-fifth percentile height of points in the point cloud (includes ground points)
+h_zq80,Quantiles of point cloud,General,Raw,Eightieth percentile height of points in the point cloud,The Eightieth percentile height of points in the point cloud (includes ground points)
+h_zq85,Quantiles of point cloud,General,Raw,Eighty-fifth percentile height of points in the point cloud,The Eighty-fifth percentile height of points in the point cloud (includes ground points)
+h_zq90,Quantiles of point cloud,General,Raw,Ninetieth percentile height of points in the point cloud,The Ninetieth percentile height of points in the point cloud (includes ground points)
+h_zq95,Quantiles of point cloud,General,Raw,Ninety-fifth percentile height of points in the point cloud,The Ninety-fifth percentile height of points in the point cloud (includes ground points)
+h_zpcum1,Entire point cloud,General,Raw,Percent of points below the tenth height percentile,Percent of points below the tenth height percentile (includes ground points)
+h_zpcum2,Entire point cloud,General,Raw,Percent of points below the twentieth height percentile,Percent of points below the twentieth height percentile (includes ground points)
+h_zpcum3,Entire point cloud,General,Raw,Percent of points below the thritieth height percentile,Percent of points below the thritieth height percentile (includes ground points)
+h_zpcum4,Entire point cloud,General,Raw,Percent of points below the fortieth height percentile,Percent of points below the fortieth height percentile (includes ground points)
+h_zpcum5,Entire point cloud,General,Raw,Percent of points below the fiftieth height percentile,Percent of points below the fiftieth height percentile (includes ground points)
+h_zpcum6,Entire point cloud,General,Raw,Percent of points below the sixtieth height percentile,Percent of points below the sixtieth height percentile (includes ground points)
+h_zpcum7,Entire point cloud,General,Raw,Percent of points below the seventieth height percentile,Percent of points below the seventieth height percentile (includes ground points)
+h_zpcum8,Entire point cloud,General,Raw,Percent of points below the eightieth height percentile,Percent of points below the eightieth height percentile (includes ground points)
+h_zpcum9,Entire point cloud,General,Raw,Percent of points below the ninetieth height percentile,Percent of points below the ninetieth height percentile (includes ground points)
+fDim,Entire point cloud,General,Raw,Box count fractal dimension,The slope of the line created by running the box count fractal dimension on the point cloud (ranges 0-1) 
+fInt,Entire point cloud,General,Raw,Box count intercept,The intercept of the line created by running the box count fractal dimension on the point cloud
+per_gap,Entire point cloud,General,Raw,Percent of unreturned points,Percent of unreturned points to the total number of pulses in the entire scan
+s_lng_na_per,Entire point cloud,General,Raster,Percent of area of occluded points,Percent of non-ground points in areas occluded by previous returns in the entire scan
+s_lng_zero_per,Entire point cloud,General,Raster,Percent of true open space,Percent of non-ground points that pass through a layer but are not returned 
+s_lng_prop_mn,Entire point cloud,General,Raster,Mean propoertion of non-occluded area,Mean proportion of returned pulses for all locations that are not zero or occluded in that layer
+s_lng_prop_sd,Entire point cloud,General,Raster,Standard deviation of the proportion of non-occluded area,Standard deviation of returned pulses for all locations that are not zero or occluded in that layer
+s_lng_prop_sk,Entire point cloud,General,Raster,Skewness of the proportion of non-occluded area,Skewness proportion of returned pulses for all locations that are not zero or occluded in that layer
+s_lng_prop_ku,Entire point cloud,General,Raster,Kurtosis of the proportion of non-occluded area,Kurtosis proportion of returned pulses for all locations that are not zero or occluded in that layer
+s_l1_na_per,Spherical distance level 1,Occlusion,Raw,Percent of non-ground points occluded in strata,Percent of non-ground points occluded in strata level 1 from origin
+s_l1_zero_per,Spherical distance level 1,Occlusion,Raw,Percent of unreturned non-ground points (true empty space) in strata,Percent of unreturned non-ground points (true empty space) in strata level 1 from origin
+s_l1_prop_mn,Spherical distance level 1,Occlusion,Raw,Mean proportion of occluded and no returns in strata,Mean proportion of occluded and no returns in strata level 1 from origin
+s_l1_prop_sd,Spherical distance level 1,Occlusion,Raw,Standard deviation of proportion of occluded and no returns in strata,Standard deviation of proportion of occluded and no returns in strata level 1 from origin
+s_l1_prop_sk,Spherical distance level 1,Occlusion,Raw,Skewness of proportion of occluded and no returns in strata,Skewness of proportion of occluded and no returns in strata level 1 from origin
+s_l1_prop_ku,Spherical distance level 1,Occlusion,Raw,Kurtosis of proportion of occluded and no returns in strata,Kurtosis of proportion of occluded and no returns in strata level 1 from origin
+s_l2_na_per,Spherical distance level 2,Occlusion,Raw,Percent of non-ground points occluded in strata ,Percent of non-ground points occluded in strata  level 2 from origin
+s_l2_zero_per,Spherical distance level 2,Occlusion,Raw,Percent of unreturned non-ground points (true empty space) in strata,Percent of unreturned non-ground points (true empty space) in strata level 2 from origin
+s_l2_prop_mn,Spherical distance level 2,Occlusion,Raw,Mean proportion of occluded and no returns in strata,Mean proportion of occluded and no returns in strata level 2 from origin
+s_l2_prop_sd,Spherical distance level 2,Occlusion,Raw,Standard deviation of proportion of occluded and no returns in strata,Standard deviation of proportion of occluded and no returns in strata level 2 from origin
+s_l2_prop_sk,Spherical distance level 2,Occlusion,Raw,Skewness of proportion of occluded and no returns in strata,Skewness of proportion of occluded and no returns in strata level 2 from origin
+s_l2_prop_ku,Spherical distance level 2,Occlusion,Raw,Kurtosis of proportion of occluded and no returns in strata,Kurtosis of proportion of occluded and no returns in strata level 2 from origin
+s_l3_na_per,Spherical distance level 3,Occlusion,Raw,Percent of non-ground points occluded in strata,Percent of non-ground points occluded in strata level 2 from origin
+s_l3_zero_per,Spherical distance level 3,Occlusion,Raw,Percent of unreturned non-ground points (true empty space) in strata,Percent of unreturned non-ground points (true empty space) in strata level 3 from origin
+s_l3_prop_mn,Spherical distance level 3,Occlusion,Raw,Mean proportion of occluded and no returns in strata,Mean proportion of occluded and no returns in strata level 3 from origin
+s_l3_prop_sd,Spherical distance level 3,Occlusion,Raw,Standard deviation of proportion of occluded and no returns in strata,Standard deviation of proportion of occluded and no returns in strata level 3 from origin
+s_l3_prop_sk,Spherical distance level 3,Occlusion,Raw,Skewness of proportion of occluded and no returns in strata,Skewness of proportion of occluded and no returns in strata level 3 from origin
+s_l3_prop_ku,Spherical distance level 3,Occlusion,Raw,Kurtosis of proportion of occluded and no returns in strata,Kurtosis of proportion of occluded and no returns in strata level 3 from origin
+s_l4_na_per,Spherical distance level 4,Occlusion,Raw,Percent of non-ground points occluded in strata ,Percent of non-ground points occluded in strata  level 4 from origin
+s_l4_zero_per,Spherical distance level 4,Occlusion,Raw,Percent of unreturned non-ground points (true empty space) in strata,Percent of unreturned non-ground points (true empty space) in strata level 4 from origin
+s_l4_prop_mn,Spherical distance level 4,Occlusion,Raw,Mean proportion of occluded and no returns in strata,Mean proportion of occluded and no returns in strata level 4 from origin
+s_l4_prop_sd,Spherical distance level 4,Occlusion,Raw,Standard deviation of proportion of occluded and no returns in strata,Standard deviation of proportion of occluded and no returns in strata level 4 from origin
+s_l4_prop_sk,Spherical distance level 4,Occlusion,Raw,Skewness of proportion of occluded and no returns in strata,Skewness of proportion of occluded and no returns in strata level 4 from origin
+s_l4_prop_ku,Spherical distance level 4,Occlusion,Raw,Kurtosis of proportion of occluded and no returns in strata,Kurtosis of proportion of occluded and no returns in strata level 4 from origin
+s_l5_na_per,Spherical distance level 5,Occlusion,Raw,Percent of non-ground points occluded in strata ,Percent of non-ground points occluded in strata  level 5 from origin
+s_l5_zero_per,Spherical distance level 5,Occlusion,Raw,Percent of unreturned non-ground points (true empty space) in strata,Percent of unreturned non-ground points (true empty space) in strata level 5 from origin
+s_l5_prop_mn,Spherical distance level 5,Occlusion,Raw,Mean proportion of occluded and no returns in strata,Mean proportion of occluded and no returns in strata level 5 from origin
+s_l5_prop_sd,Spherical distance level 5,Occlusion,Raw,Standard deviation of proportion of occluded and no returns in strata,Standard deviation of proportion of occluded and no returns in strata level 5 from origin
+s_l5_prop_sk,Spherical distance level 5,Occlusion,Raw,Skewness of proportion of occluded and no returns in strata,Skewness of proportion of occluded and no returns in strata level 5 from origin
+s_l5_prop_ku,Spherical distance level 5,Occlusion,Raw,Kurtosis of proportion of occluded and no returns in strata,Kurtosis of proportion of occluded and no returns in strata level 5 from origin
+vox_l1_cnt,Entire voxelized point cloud,General,Voxelized,Mean height of voxelized point cloud,Number of TLS points in the entire voxelized point cloud
+vox_l1_mean,Entire voxelized point cloud,General,Voxelized,Mean height of voxelized point cloud,Mean height of TLS points in the entire voxelized point cloud
+vox_l1_median,Entire voxelized point cloud,General,Voxelized,Median height of voxelized point cloud,Median height of TLS points in the entire voxelized point cloud
+vox_l1_std,Entire voxelized point cloud,General,Voxelized,SD of heights in voxelized point cloud,Standard deviation of height of TLS points in the entire voxelized point cloud
+vox_l1_tgi,Entire voxelized point cloud,General,Voxelized,Triangular greenness index of points in voxelized point cloud,Triangular greenness index of TLS points in the entire voxelized point cloud
+vox_l1_vari,Entire voxelized point cloud,General,Voxelized,Visual atmospheric resistance index of points in voxelized point cloud,Visual atmospheric resistance index of TLS points in the entire voxelized point cloud
+vox_l1_skew,Entire voxelized point cloud,General,Voxelized,Skewness of heights in voxelized point cloud,Skewness of height of TLS points in the entire voxelized point cloud
+vox_l1_kurt,Entire voxelized point cloud,General,Voxelized,Kurtosis of heights in voxelized point cloud,Kurtosis of height of TLS points in the entire voxelized point cloud
+TBA,Tree data,Trees,Voxelized,Total basal area in the voxelized point cloud (m‹¨«),Total basal area of all detected overstory trees calculated from classified stem points in the point cloud
+Basalarea,Tree data,Trees,Voxelized,Basal area estimated from the tree inventory (ft‹¨«/acre),"Total basal area of detected overstory trees corrected for possible occlusion, converted to imperial measurements and scalled to acres"
+MeanTH,Tree data,Trees,Voxelized,Mean tree height,The mean height of all detected overstory trees in the scan
+MDBH,Tree data,Trees,Voxelized,Mean dbh,The mean Diameter at breast height (1.37 m) of all detected overstory trees in the scan
+TreesN,Tree data,Trees,Voxelized,Number of trees,The number of detected overstory trees in the scan
+MaxTH,Tree data,Trees,Voxelized,Maximum tree height,The height of the tallest detected overstory tree
+SDHT,Tree data,Trees,Voxelized,Standard deviation of tree heights,The standard deviation of heights of all the detected overstory trees
+CBH,Tree data,Trees,Voxelized,Canopy base height,The canopy base height in the scan (currently estimated using the mean tree height minus the standard deviation of tree heights)
+LAI,Entire voxelized point cloud,General,Voxelized,Calculated leaf area index of the point cloud,The leaf area index calculated from the entire point cloud
+ULAI,Entire voxelized point cloud,General,Voxelized,Understory leaf area index,The leaf area index calculated from the understory (1-3 m) strata
+MLAI,Entire voxelized point cloud,General,Voxelized,Midstory leaf area index,The leaf area index calculated from the midstory (3-9 m) strata
+OLAI,Entire voxelized point cloud,General,Voxelized,Overstory leaf area index,The leaf area index calculated from the overstory (>9 m) strata
+FHD,Entire voxelized point cloud,General,Voxelized,Foliage height diversity,"The foliage height diversity (FHD) metric from abundances considered as per-voxel relative LAD values, as described in MacArthur and MacArthur (1961) "
+GiSimp,Entire voxelized point cloud,General,Voxelized,Gini-Simpson index of foliage structural diversity ,The Gini-Simpson (GS) index metric (Simpson diversity from abundances using voxel relative leaf area density)
+LAHV,Entire voxelized point cloud,General,Voxelized,Leaf Area Height Volume metric,The leaf area height volume (LAHV) metric as described in Almeida et al. (2019) calculated from the entire point cloud
+GCvol,0-1 m high voxelized point clouds with tree stems removed,General,Voxelized,Ground cover fuel volume ,Occupied voxel space per square meter corrected for occlusion in from 0-1m high
+USvol,1-3 m high voxelized point clouds with tree stems removed,General,Voxelized,Understory cover fuel volume ,Occupied voxel space per square meter corrected for occlusion in from 1-3m high
+MSvol,3-9 m high voxelized point clouds with tree stems removed,General,Voxelized,Midstory cover fuel volume ,Occupied voxel space per square meter corrected for occlusion in from 3-9m high
+OSvol,>9 m high voxelized point clouds with tree stems removed,General,Voxelized,Overstory cover fuel volume ,Occupied voxel space per square meter corrected for occlusion in from >9m high
+canopyCover,calculated from the canopy height model raster,General,Raster,Canopy cover  (0-1 proportional cover),Proportional cover of the canopy calculated above the CBH defined above corrected for occlusion
+fuel0_3l1_cnt,0-3 m high voxelized point clouds with tree stems removed,General,Voxelized,Count of points in height strata,Count of points in the 0-3 m high voxelized point clouds with tree stems removed
+fuel0_3l1_mean,0-3 m high voxelized point clouds with tree stems removed,General,Voxelized,Mean height of points in height strata,Mean height of points in the 0-3 m high voxelized point clouds with tree stems removed
+fuel0_3l1_median,0-3 m high voxelized point clouds with tree stems removed,General,Voxelized,Median height of points in height strata,Median height of points in height strata0-3 m high voxelized point clouds with tree stems removed
+fuel0_3l1_std,0-3 m high voxelized point clouds with tree stems removed,General,Voxelized,Standard deviation of the heights of points in height strata,Standard deviation of the heights of points in the 0-3 m high voxelized point clouds with tree stems removed
+fuel0_3l1_tgi,0-3 m high voxelized point clouds with tree stems removed,General,Voxelized,Triangular greenness index of points in height strata,Triangular greenness index of points in the 0-3 m high voxelized point clouds with tree stems removed
+fuel0_3l1_vari,0-3 m high voxelized point clouds with tree stems removed,General,Voxelized,Visual atmospheric resistance index of points in height strata,Visual atmospheric resistance index of points in the 0-3 m high voxelized point clouds with tree stems removed
+fuel0_3l1_skew,0-3 m high voxelized point clouds with tree stems removed,General,Voxelized,Skewness of point heights in height strata,Skewness of point heights in the 0-3 m high voxelized point clouds with tree stems removed
+fuel0_3l1_kurt,0-3 m high voxelized point clouds with tree stems removed,General,Voxelized,Kurtosis of point heights in height strata,Kurtosis of point heights in the 0-3 m high voxelized point clouds with tree stems removed
+shrubs_l1_cnt,Shrub classified voxelized point cloud,General,Voxelized,Count of points in height strata,Count of points in the Shrub classified voxelized point cloud
+shrubs_l1_mean,Shrub classified voxelized point cloud,General,Voxelized,Mean height of points in height strata,Mean height of points in the Shrub classified voxelized point cloud
+shrubs_l1_median,Shrub classified voxelized point cloud,General,Voxelized,Median height of points in height strata,Median height of points in height strataShrub classified voxelized point cloud
+shrubs_l1_std,Shrub classified voxelized point cloud,General,Voxelized,Standard deviation of the heights of points in height strata,Standard deviation of the heights of points in the Shrub classified voxelized point cloud
+shrubs_l1_tgi,Shrub classified voxelized point cloud,General,Voxelized,Triangular greenness index of points in height strata,Triangular greenness index of points in the Shrub classified voxelized point cloud
+shrubs_l1_vari,Shrub classified voxelized point cloud,General,Voxelized,Visual atmospheric resistance index of points in height strata,Visual atmospheric resistance index of points in the Shrub classified voxelized point cloud
+shrubs_l1_skew,Shrub classified voxelized point cloud,General,Voxelized,Skewness of point heights in height strata,Skewness of point heights in the Shrub classified voxelized point cloud
+shrubs_l1_kurt,Shrub classified voxelized point cloud,General,Voxelized,Kurtosis of point heights in height strata,Kurtosis of point heights in the Shrub classified voxelized point cloud
+ShrubsN,Shrub data,Shrubs,Voxelized,Number of shrubs in the point cloud,Number of shrubs in the point cloud calculated from the cloth simulation filter method used to classify shrub points
+shrubArea,Shrub data,Shrubs,Voxelized,Area of shrubs in the point cloud (m‹¨«),Area of shrubs in the point cloud (m‹¨«) calculated from the cloth simulation filter method used to classify shrub points
+scaledShrubArea,Shrub data,Shrubs,Voxelized,Estimated area of shrubs per acre (ft‹¨«/acre),Estimated area of shrubs per acre (ft‹¨«/acre) calculated from the cloth simulation filter method used to classify shrub points
+MeanSH,Shrub data,Shrubs,Voxelized,Mean height of shrubs in the point cloud,Mean height of shrubs in the point cloud calculated from the cloth simulation filter method used to classify shrub points
+MeanSA,Shrub data,Shrubs,Voxelized,Mean area of shrubs in the point cloud,Mean area of shrubs in the point cloud calculated from the cloth simulation filter method used to classify shrub points
+MaxSH,Shrub data,Shrubs,Voxelized,Maximum height of shrubs in the point cloud,Maximum height of shrubs in the point cloud calculated from the cloth simulation filter method used to classify shrub points
+SDSHT,Shrub data,Shrubs,Voxelized,Standard deviation of height of shrubs in the point cloud,Standard deviation of height of shrubs in the point cloud calculated from the cloth simulation filter method used to classify shrub points
+MeanSD,Shrub data,Shrubs,Voxelized,Mean distance between centroids of shrubs in the point cloud,Mean distance between centroids of shrubs in the point cloud calculated from the cloth simulation filter method used to classify shrub points
+MaxSD,Shrub data,Shrubs,Voxelized,Maximum distance between centriods of shrubs in the point cloud,Maximum distance between centriods of shrubs in the point cloud calculated from the cloth simulation filter method used to classify shrub points
+MinSD,Shrub data,Shrubs,Voxelized,Minimum distance between centriods of shrubs in the point cloud,Minimum distance between centriods of shrubs in the point cloud calculated from the cloth simulation filter method used to classify shrub points
+SDSD,Shrub data,Shrubs,Voxelized,Standard deviation of distance between centroids of shrubs in the point cloud,Standard deviation of distance between centroids of shrubs in the point cloud calculated from the cloth simulation filter method used to classify shrub points
+fine_l1_cnt,0-3 m high voxelized point clouds with tree stems and shrubs removed,General,Voxelized,Count of points in height strata,Count of points in the 0-3 m high voxelized point clouds with tree stems and shrubs removed
+fine_l1_mean,0-3 m high voxelized point clouds with tree stems and shrubs removed,General,Voxelized,Mean height of points in height strata,Mean height of points in the 0-3 m high voxelized point clouds with tree stems and shrubs removed
+fine_l1_median,0-3 m high voxelized point clouds with tree stems and shrubs removed,General,Voxelized,Median height of points in height strata,Median height of points in height strata0-3 m high voxelized point clouds with tree stems and shrubs removed
+fine_l1_std,0-3 m high voxelized point clouds with tree stems and shrubs removed,General,Voxelized,Standard deviation of the heights of points in height strata,Standard deviation of the heights of points in the 0-3 m high voxelized point clouds with tree stems and shrubs removed
+fine_l1_tgi,0-3 m high voxelized point clouds with tree stems and shrubs removed,General,Voxelized,Triangular greenness index of points in height strata,Triangular greenness index of points in the 0-3 m high voxelized point clouds with tree stems and shrubs removed
+fine_l1_vari,0-3 m high voxelized point clouds with tree stems and shrubs removed,General,Voxelized,Visual atmospheric resistance index of points in height strata,Visual atmospheric resistance index of points in the 0-3 m high voxelized point clouds with tree stems and shrubs removed
+fine_l1_skew,0-3 m high voxelized point clouds with tree stems and shrubs removed,General,Voxelized,Skewness of point heights in height strata,Skewness of point heights in the 0-3 m high voxelized point clouds with tree stems and shrubs removed
+fine_l1_kurt,0-3 m high voxelized point clouds with tree stems and shrubs removed,General,Voxelized,Kurtosis of point heights in height strata,Kurtosis of point heights in the 0-3 m high voxelized point clouds with tree stems and shrubs removed
+hr0_10_l1_cnt,0-3 m high voxelized point clouds with tree stems and shrubs removed,General,Voxelized,Count of points in height strata,Count of points in the 0-3 m high voxelized point clouds with tree stems and shrubs removed and KNN analysis selecting for 0-10 hour fuel points
+hr0_10_l1_mean,0-3 m high voxelized point clouds with tree stems and shrubs removed,General,Voxelized,Mean height of points in height strata,Mean height of points in the 0-3 m high voxelized point clouds with tree stems and shrubs removed and KNN analysis selecting for 0-10 hour fuel points
+hr0_10_l1_median,0-3 m high voxelized point clouds with tree stems and shrubs removed,General,Voxelized,Median height of points in height strata,Median height of points in height strata0-3 m high voxelized point clouds with tree stems and shrubs removed and KNN analysis selecting for 0-10 hour fuel points
+hr0_10_l1_std,0-3 m high voxelized point clouds with tree stems and shrubs removed,General,Voxelized,Standard deviation of the heights of points in height strata,Standard deviation of the heights of points in the 0-3 m high voxelized point clouds with tree stems and shrubs removed and KNN analysis selecting for 0-10 hour fuel points
+hr0_10_l1_tgi,0-3 m high voxelized point clouds with tree stems and shrubs removed,General,Voxelized,Triangular greenness index of points in height strata,Triangular greenness index of points in the 0-3 m high voxelized point clouds with tree stems and shrubs removed and KNN analysis selecting for 0-10 hour fuel points
+hr0_10_l1_vari,0-3 m high voxelized point clouds with tree stems and shrubs removed,General,Voxelized,Visual atmospheric resistance index of points in height strata,Visual atmospheric resistance index of points in the 0-3 m high voxelized point clouds with tree stems and shrubs removed and KNN analysis selecting for 0-10 hour fuel points
+hr0_10_l1_skew,0-3 m high voxelized point clouds with tree stems and shrubs removed,General,Voxelized,Skewness of point heights in height strata,Skewness of point heights in the 0-3 m high voxelized point clouds with tree stems and shrubs removed and KNN analysis selecting for 0-10 hour fuel points
+hr0_10_l1_kurt,0-3 m high voxelized point clouds with tree stems and shrubs removed,General,Voxelized,Kurtosis of point heights in height strata,Kurtosis of point heights in the 0-3 m high voxelized point clouds with tree stems and shrubs removed and KNN analysis selecting for 0-10 hour fuel points
+hr100_1000_l1_cnt,0-3 m high voxelized point clouds with tree stems and shrubs removed,General,Voxelized,Count of points in height strata,Count of points in the 0-3 m high voxelized point clouds with tree stems and shrubs removed and KNN analysis selecting for 100-1000 hour fuel points
+hr100_1000_l1_mean,0-3 m high voxelized point clouds with tree stems and shrubs removed,General,Voxelized,Mean height of points in height strata,Mean height of points in the 0-3 m high voxelized point clouds with tree stems and shrubs removed and KNN analysis selecting for 100-1000 hour fuel points
+hr100_1000_l1_median,0-3 m high voxelized point clouds with tree stems and shrubs removed,General,Voxelized,Median height of points in height strata,Median height of points in height strata0-3 m high voxelized point clouds with tree stems and shrubs removed and KNN analysis selecting for 100-1000 hour fuel points
+hr100_1000_l1_std,0-3 m high voxelized point clouds with tree stems and shrubs removed,General,Voxelized,Standard deviation of the heights of points in height strata,Standard deviation of the heights of points in the 0-3 m high voxelized point clouds with tree stems and shrubs removed and KNN analysis selecting for 100-1000 hour fuel points
+hr100_1000_l1_tgi,0-3 m high voxelized point clouds with tree stems and shrubs removed,General,Voxelized,Triangular greenness index of points in height strata,Triangular greenness index of points in the 0-3 m high voxelized point clouds with tree stems and shrubs removed and KNN analysis selecting for 100-1000 hour fuel points
+hr100_1000_l1_vari,0-3 m high voxelized point clouds with tree stems and shrubs removed,General,Voxelized,Visual atmospheric resistance index of points in height strata,Visual atmospheric resistance index of points in the 0-3 m high voxelized point clouds with tree stems and shrubs removed and KNN analysis selecting for 100-1000 hour fuel points
+hr100_1000_l1_skew,0-3 m high voxelized point clouds with tree stems and shrubs removed,General,Voxelized,Skewness of point heights in height strata,Skewness of point heights in the 0-3 m high voxelized point clouds with tree stems and shrubs removed and KNN analysis selecting for 100-1000 hour fuel points
+hr100_1000_l1_kurt,0-3 m high voxelized point clouds with tree stems and shrubs removed,General,Voxelized,Kurtosis of point heights in height strata,Kurtosis of point heights in the 0-3 m high voxelized point clouds with tree stems and shrubs removed and KNN analysis selecting for 100-1000 hour fuel points

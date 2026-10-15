@@ -1,0 +1,56 @@
+cff-version: 1.2.0
+message: "If you use these scripts, please cite the IntELiMon paper below."
+title: "IntELiMon R scripts"
+version: 1.2.0
+date-released: 2026-10-15
+license: CC0-1.0
+repository-code: "https://github.com/spokswinski/IntELiMon-R-scripts"
+authors:
+  - family-names: Pokswinski
+    given-names: Scott
+    affiliation: New Mexico Consortium
+preferred-citation:
+  type: article
+  title: "IntELiMon: an automated framework for standardized terrestrial lidar processing in multi-disciplinary ecosystem monitoring"
+  journal: "Forestry: An International Journal of Forest Research"
+  volume: 99
+  issue: 5
+  month: 12
+  year: 2026
+  start: cpag083
+  doi: 10.1093/forestry/cpag083
+  authors:
+    - family-names: Pokswinski
+      given-names: Scott
+    - family-names: Nelson
+      given-names: Kurtis
+    - family-names: Maxwell
+      given-names: Aaron
+    - family-names: Link
+      given-names: Emily
+    - family-names: Redford
+      given-names: Hannah E.
+    - family-names: Atkins
+      given-names: Jeff W.
+    - family-names: Sanchez Meador
+      given-names: Andrew
+    - family-names: Nealey
+      given-names: Isaac
+    - family-names: Crawl
+      given-names: Daniel
+    - family-names: Floca
+      given-names: Melissa
+    - family-names: Altintas
+      given-names: Ilkay
+    - family-names: Loudermilk
+      given-names: E. Louise
+    - family-names: Anderson
+      given-names: Chad
+    - family-names: Oliveto
+      given-names: Julia
+    - family-names: Linn
+      given-names: Rodman R.
+    - family-names: Wallace
+      given-names: Jon
+    - family-names: Hiers
+      given-names: J. Kevin

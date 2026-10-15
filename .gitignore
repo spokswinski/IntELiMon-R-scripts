@@ -1,0 +1,23 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Lidar inputs and processing outputs
+*.ptx
+*.las
+*.laz
+*.tif
+las/
+dtm/
+chm/
+metrics/
+Inventory/
+Shrubs/
+Fuels/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
